@@ -46,8 +46,10 @@ def clean_data(df):
     for column in categories:
         # set each value to be the last character of the string
         categories[column] = categories[column].str.strip().str[-1]
-    # convert column from string to numeric
-    categories[column] = pd.to_numeric(categories[column])
+        # convert column from string to numeric
+        categories[column] = pd.to_numeric(categories[column])
+    # Ensure that no values > 1 exist
+    categories = categories.applymap(lambda x:1 if x>1 else x) 
     
     # drop the original categories column from `df`
     df.drop('categories', axis= 1,inplace = True)
