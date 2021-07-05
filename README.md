@@ -9,12 +9,15 @@
 ## Installation <a name="installation"></a>
 
 The code should run with no issues using Python version 3.0 or older.
+
 Libraries that were used for the analysis are Pandas, Numpy, Scikit-learn, SQLlchemy, NLTK, RE, Pickle, Json, Plotly, Flask.
 
 
 ## Project Motivation<a name="motivation"></a>
 
 As part of the Udacity Data Scientist Nanodegree, I developed this ETL and ML pipeline that takes messages of disaster responses as inputs and then classifies each message as different categories (multilabel classification).
+
+The ETL and ML pipeline can be used to run a Flask app. The Flask app can be fed disaster messages which are then classified into different categories. 
 
 
 ## File Descriptions <a name="files"></a>
@@ -48,6 +51,9 @@ However, process_data.py and train_classifier.py can run without Udacity. You ca
 ## Results<a name="results"></a>
 
 The above mentioned scripts contain the results of the analysis. They can be used to classify other disaster messages.
+
+[image](https://user-images.githubusercontent.com/62476751/124501862-9fd71900-ddc2-11eb-9469-fd5ec2d5e830.png)
+
 
 ## Licensing, Authors, Acknowledgements<a name="licensing"></a>
 
