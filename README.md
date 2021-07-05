@@ -53,6 +53,7 @@ However, process_data.py and train_classifier.py can run without Udacity. You ca
 The above mentioned scripts contain the results of the analysis. They can be used to classify other disaster messages.
 
 ![image](https://user-images.githubusercontent.com/62476751/124501862-9fd71900-ddc2-11eb-9469-fd5ec2d5e830.png)
+![image](https://user-images.githubusercontent.com/62476751/124501955-ce54f400-ddc2-11eb-8a5c-22ef1f5ff82f.png)
 
 
 ## Licensing, Authors, Acknowledgements<a name="licensing"></a>
