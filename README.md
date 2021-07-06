@@ -47,6 +47,7 @@ The following files are contained in this repository:
 
 Please note that running the app should only work via a Udacity classroom.
 However, process_data.py and train_classifier.py can run without Udacity. You can specify different file paths to test and train the model with different data.
+Please also note that the app does not use the model saved in classifier.pkl but instead the model from classifier_final.pkl.
 
 ## Results<a name="results"></a>
 
